@@ -25,5 +25,13 @@ print("The sentince is" + x)
 
 y = x.split( )
 print(y)
+z = len(y)
+print(z)
+
+day_of_week = input("what day is it? ")
+if day_of_week == "Thursday":
+    print("correct")
+else:
+    print("incorrect")
 
 
