@@ -35,3 +35,15 @@ else:
     print("incorrect")
 
 
+sent = input("Please type a sentence")
+x = int(sent)
+print(type(x))
+
+
+a = int
+x = a % 2
+if x == 0:
+    print("even")
+else:
+    print("odd")
+
