@@ -35,15 +35,19 @@ else:
     print("incorrect")
 
 
-sent = input("Please type a sentence")
-x = int(sent)
-print(type(x))
 
-
-a = int
-x = a % 2
+a = input("Determine if this number is odd or even") 
+b = int(a)
+print(type(b))
+x = b % 2
 if x == 0:
     print("even")
+elif x > 0 :
+    print("odd")
 else:
     print("odd")
 
+bill = input("Was the service good, bad, or great?")
+b = int(bill)
+print(type(b))
+x = b 
