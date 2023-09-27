@@ -51,3 +51,18 @@ bill = input("Was the service good, bad, or great?")
 b = int(bill)
 print(type(b))
 x = b 
+
+
+eastbound = input(" True or false?")
+x = bool(eastbound)
+print(type(x))
+if x == 5:
+    print("True")
+    #create a function that acepts two arguments
+
+
+x = eastbound
+y = westbound
+
+
+    
