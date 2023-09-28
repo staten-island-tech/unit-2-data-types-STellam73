@@ -47,22 +47,27 @@ elif x > 0 :
 else:
     print("odd")
 
-bill = input("Was the service good, bad, or great?")
-b = int(bill)
-print(type(b))
-x = b 
+b = input("Bill Value?")
+print(b)
+service = input("Was the service bad,okay,good,or great?")
+if service == "bad":
+    print("0% tip")
+elif service == "okay":
+    print("15% tip")
+elif service == "good":
+    print("20% tip")
+elif service == "great":
+    print("25% tip")
+else:
+    ("no tip")
+
+x = input("Factors of a number")
+print(x)
+z = int("number")
+y = x %  i
+for i in range():
+    if y == 
 
 
-eastbound = input(" True or false?")
-x = bool(eastbound)
-print(type(x))
-if x == 5:
-    print("True")
-    #create a function that acepts two arguments
 
 
-x = eastbound
-y = westbound
-
-
-    
