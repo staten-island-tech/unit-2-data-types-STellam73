@@ -61,13 +61,34 @@ elif service == "great":
 else:
     ("no tip")
 
-x = input("Factors of a number")
-print(x)
-z = int("number")
-y = x %  i
-for i in range():
-    if y == 
+
+x = int(input("eneter a number to be factored"))
+factors = []
+for i in range(1, x+1):
+    if x % i == 0:
+        factors.append(i)
+print(factors)
 
 
+y = int(input("eneter a number to be factored"))
+greatestcf = []
+for i in range(1, y+1):
+    if y % i == 0:
+        greatestcf.append(i)
+print(greatestcf)
+
+for i in (factors):
+
+
+GCF = [1, 3, 4, 8] 
+c = GCF[1]
+b = GCF[-1]
+print(c)
+print(b)
+
+
+GCF = [1, 8, 4, 3]
+c = max(GCF)
+print(c)
 
 
