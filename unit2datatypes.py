@@ -77,18 +77,16 @@ for i in range(1, y+1):
         greatestcf.append(i)
 print(greatestcf)
 
-for i in (factors):
+#for example if ur factroign 10 and 12 the factors of 10 are 1 2 5 10 and if 12 the factors are 1 2 3 4 6 12 
+# and if we assume 
 
-
-GCF = [1, 3, 4, 8] 
-c = GCF[1]
-b = GCF[-1]
-print(c)
-print(b)
-
-
-GCF = [1, 8, 4, 3]
-c = max(GCF)
-print(c)
-
-
+if len(factors ) > len(greatestcf):
+    z = len(factors)
+else:
+     z = len(greatestcf)
+ 
+gcf = 5
+for i in range(z):
+    if factors[i] in greatestcf:
+        gcf = factors[i]
+print(gcf)
