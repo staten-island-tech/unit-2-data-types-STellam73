@@ -1,0 +1,5 @@
+x = input("give me a verb, NOW!")
+y = input("i demand another verb!!!")
+r = input("now my pookie provide me with a noun:)")
+t = input("ugh now i need A NUMBERRRR :(")
+v = input("surprise surprise now i need a... celebirty")
